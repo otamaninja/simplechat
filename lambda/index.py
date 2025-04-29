@@ -21,7 +21,7 @@ def lambda_handler(event, context):
         print("Processing message:", message)
 
         # --- FastAPIに接続 ---
-        api_url = "https://05cf-34-90-231-218.ngrok-free.app/generate"
+        api_url = "https://6826-34-90-231-218.ngrok-free.app/generate"
 
         request_data = {
             "prompt": message,
